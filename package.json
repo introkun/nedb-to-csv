@@ -1,0 +1,22 @@
+{
+  "name": "nedb-to-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nedb-to-csv": "./bin/index.js"
+  },
+  "type": "module",
+  "author": "introkun",
+  "license": "MIT",
+  "dependencies": {
+    "@seald-io/nedb": "^4.0.4",
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "yargs": "^17.7.2"
+  }
+}
